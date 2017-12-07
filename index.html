@@ -4,18 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="main.css">
     <title>Document</title>
 </head>
 <body>
-    <h2>Temperature Converter</h2>
-    <input type="radio" id="fahrenheit" name="" value=""> Fahrenheit
-    <br>
-    <input type="radio" id="celsius" name="" value=""> Celsius
-    <br>
-    <br>
-    <button type="radio" id="convert">Convert</button>
+    <div>
+        <h2>Temperature Converter</h2>
+        <input type="text" id="number" name="" value="">
+        <br>
+        <input type="radio" id="fahrenheit" name="temp-box" value=""> Fahrenheit
+        <br>
+        <input type="radio" id="celsius" name="temp-box" value=""> Celsius
+        <br>
+        <br>
+        <button type="" id="converter">Convert</button>
+        <br>
+    </div>
 
-
-    <script src="main.js"></script>
+    <div id="parent" class="btn-wrapper">
+        <button type-"" id="clear-text">Clear</button>
+        <div><h2>Here's your converted temperature</h2></div>
+        <div id="output"></div>
+        <script src="main.js"></script>
+    </div>
 </body>
 </html>
